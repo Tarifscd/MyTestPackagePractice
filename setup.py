@@ -4,7 +4,7 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
-setup(name='test_package',
+setup(name='example_pkg',
       version='0.1',
       description='Example of customised Package.',
       long_description=readme(),
@@ -19,7 +19,7 @@ setup(name='test_package',
       author='Tarif',
       author_email='tarif@example.com',
       license='MIT',
-      packages=['test_package'],
+      packages=['example_pkg'],
       install_requires=[
           'markdown',
       ],
